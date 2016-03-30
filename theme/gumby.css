@@ -1481,7 +1481,7 @@ img {
   display: block;
   padding: 0 18px;
   color: white;
-/*  height: 100%;*/
+  height: 100%;
 }
 .btn input, .btn button, .skiplink input, .skiplink button {
   background: none;
@@ -7095,68 +7095,3 @@ footer#credits .socbtns {
 #templates {
   padding-bottom: 200px;
 }
-
-/*2013-11-28 by cow*/
-/* Styling for Social */
-.social a[href*='activestate.com']:before {content: url('./icons/activestate.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='atom.xml']:before {content: url('./icons/rss.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='bitbucket.org']:before {content: url('./icons/bitbucket.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='code.google.com']:before {content: url('./icons/phosting.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='delicious.com']:before {content: url('./icons/delicious.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='digg.com']:before {content: url('./icons/digg.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='facebook.com']:before {content: url('./icons/facebook.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='github.com']:before {content: url('./icons/github.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='gitorious.org']:before {content: url('./icons/gitorious.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='google.com/reader']:before {content: url('./icons/reader.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='jamendo.com']:before {content: url('./icons/jamendo.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='last.fm']:before {content: url('./icons/lastfm.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='linkedin.com']:before {content: url('./icons/linkedin.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='rss.xml']:before {content: url('./icons/rss.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='stackoverflow.com']:before {content: url('./icons/stackoverflow.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='twitter.com']:before {content: url('./icons/twitter.png'); margin-right: 2px; vertical-align: -3px;}
-
-.social a[href*='weibo.com']:before {content: url('./icons/weibo.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='t.qq.com']:before {content: url('./icons/qqweibo.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='douban.com']:before {content: url('./icons/douban.png'); margin-right: 2px; vertical-align: -3px;}
-.social a[href*='user.qzone.qq.com']:before {content: url('./icons/qzone.png'); margin-right: 2px; vertical-align: -3px;}
-
-.backToTop {
-    display: none;
-    width: 18px;
-    line-height: 1.2;
-    padding: 5px 0;
-    background-color: #000;
-    color: #fff;
-    font-size: 12px;
-    text-align: center;
-    position: fixed;
-    _position: absolute;
-    right: 10px;
-    bottom: 130px;
-    _bottom: "auto";
-    cursor: pointer;
-    opacity: .6;
-    filter: Alpha(opacity=60);
-}
-
-.sidebarbg {
-    background-color: #FBFBFB;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
-    margin: 5px 0px 10px 0px;
-    min-height: 15px;
-}
-.sidebarbg h4, .sidebarbg a{
-	padding-left: 10px;
-}
-.sidebarbg a:hover{
-	display: block;
-	background-color: #EEEEEE;
-	text-decoration: none;
-	padding-left: 10px;
-}
-
-
-
-
